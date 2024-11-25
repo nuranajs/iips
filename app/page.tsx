@@ -25,6 +25,12 @@ export default async function Home() {
   console.log(data);
 
   return (
+    <section>
+      <div className="container mx-auto p-4 pt-6 md:p-6 lg:p">
+        <div className="flex flex-wrap justify-normal">
+          <h1>Program</h1>
+        </div>
+      </div>
     <div className="grid grid-cols-1 md:grid-cols-2 mt-5 gap-5">
       {data.map((post, idx) => (
         <Card key={idx}>
@@ -43,5 +49,6 @@ export default async function Home() {
         </Card>
       ))}
     </div>
+    </section>
   );
 }
