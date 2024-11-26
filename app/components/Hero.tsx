@@ -11,13 +11,12 @@ export default function Hero(){
 
     return(
         <section id="#">
-      <div className="">
+      <div className="w-full">
  
           <h1 className="text-lg line-clamp-1 font-bold">
             <span>
-              Selamat Datang
+              Selamat datang para pemimpin masa depan
             </span>
-            Para pemimpin masa depan
           </h1>
           <p className="text-lg line-clamp-1 font-bold">
             Membangun mental pemimpin dengan pendektan perinsip-prinsip islam.
