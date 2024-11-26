@@ -4,6 +4,7 @@ import { simpleBlogCard } from "./lib/interface";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link  from "next/link";
+import Hero from "./components/Hero";
 
 
 async function getData() {
@@ -25,10 +26,12 @@ export default async function Home() {
   console.log(data);
 
   return (
+    //program
     <section>
+      <Hero/>
       <div className="container mx-auto p-4 pt-6 md:p-6 lg:p">
-        <div className="flex flex-wrap justify-normal">
-          <h1>Program</h1>
+        <div className="flex flex-wrap justify-center">
+          <h1 className="text-3xl font-extrabold">Program</h1>
         </div>
       </div>
     <div className="grid grid-cols-1 md:grid-cols-2 mt-5 gap-5">
